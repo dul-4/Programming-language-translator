@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF=8">
+        <meta name="viweport" content="width=device-width, initial-scale=1.0">
+        <title>PolyCode Translator & Terminal</title>
+        <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <header>
+            <div class="logo">
+                <i class="fa-solid fa-code"></i>
+                <span>PolyCode Translator & Terminal</span>
+            </div>
+        </header>
+
+        <div class="main-container">
+            <div class="editor-panel">
+                <div class="panel-header">
+                    <select id="sourceLang" class="lang-selector">
+                        <option value="python">Python</option>
+                        <option value="cpp">C++</option>
+                        <option value="javascript">JavaScript</option>
+                        <option value="java">Java</option>
+                        <option value="csharp">C#</option>
+                    </select>
+                    <div class="panel-actions"></div>
+                    <button class="icon-btn" onclick="clearEditor('source')" title="Clear"><i class="fa-solid fa-trash-can"></i></button>
+                    <button class="icon-btn" onclick="copyCode('source')" title="Copy Code"><i class="fa-regular fa-copy"></i></button>
+                </div>
+            </div>
+            <div class="editor-body">
+                <textarea id="sourceCode" placeholder="Write your source code here..." oninput="tranlateCode()"></textarea>
+            </div>
+            <div class="terminal-container">
+                <div class="terminal-header">
+                    <span>Terminal</span>
+                    <button class="run-btn" onclick="runCode('source')"><i class="fa-solid fa-play"></i>Run</button>
+                </div>
+                <div id="sourceTerminal" class="terminal-output">// Output will appear here...</div>
+            </div>
+        </div>
+        <div class="middle-controls">
+            <button class="swap-btn" onclick="swapLanguages()" title="Swap Languages">
+                <i class="fa-solid fa-right-left"></i>
+            </button>
+        </div>
+        <div class="editor-panel">
+            <div class="panel-header">
+                <select id="targetLang" class="lang-selector" onchange="translateCode()">
+                    <option value="cpp">C++</option>
+                    <option value="python">Python</option>
+                    <option value="javascript">JavaScript</option>
+                    <option value="java">Java</option>
+                    <option value="csharp">C#</option>
+                </select>
+                <div class="panel-actions">
+                    <button class="icon-btn" onclick="clearEditor('target')" title="Clear"><i class="fa-solid fa-trash-can"></i></button>
+                    <button class="icon-btn" onclick="copyCode('target')" title="Copy Code"><i class="fa-regular fa-copy"></i></button>
+                </div>
+            </div>
+            <div class="editor-body">
+                <textarea id="targetCode" placeholder="Translated code will appear here..." readonly></textarea>
+            </div>
+            <div class="terminal-container">
+                <div class="terminal-header">
+                    <span>Terminal</span>
+                    <button class="run-btn" onclick="runCode('target')"><i class="fa-solid fa-play"></i>Run</button>
+                </div>
+                <div id="targetTerminal" class="terminal-output">// Output will appear here...</div>
+            </div>
+        </div>
+    <div id="toast">Copied to clipboard!</div>
+    <script src="script.js"></script>
+    </body>
+</html>
