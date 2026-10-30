@@ -1,8 +1,7 @@
 <!DOCTYPE html>
-<html lang="en">
     <head>
-        <meta charset="UTF=8">
-        <meta name="viweport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>PolyCode Translator & Terminal</title>
         <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -27,13 +26,13 @@
                         <option value="java">Java</option>
                         <option value="csharp">C#</option>
                     </select>
-                    <div class="panel-actions"></div>
+                    <div class="panel-actions">
                     <button class="icon-btn" onclick="clearEditor('source')" title="Clear"><i class="fa-solid fa-trash-can"></i></button>
                     <button class="icon-btn" onclick="copyCode('source')" title="Copy Code"><i class="fa-regular fa-copy"></i></button>
                 </div>
             </div>
             <div class="editor-body">
-                <textarea id="sourceCode" placeholder="Write your source code here..." oninput="tranlateCode()"></textarea>
+                <textarea id="sourceCode" placeholder="Write your source code here..." oninput="translateCode()"></textarea>
             </div>
             <div class="terminal-container">
                 <div class="terminal-header">

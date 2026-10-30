@@ -1,14 +1,14 @@
 :root{
-    --bg-main:#0a0a0a;
-    --bg-panel:#141414;
-    --bg-element:#1f1f1f;
-    --border-color:#2e2e2e;
-    --border-focus:#555555;
-    --text-primary:#f3f4f6;
-    --text-secondary:#9ca3af;
-    --accent:#ffffff;
-    --accent-hover:#e5e7eb;
-    --terminal-bg:#050505;
+    --bg-main:#ffffff;
+    --bg-panel:#f9fafb;
+    --bg-element:#f3f4f6;
+    --border-color:#e5e7eb;
+    --border-focus:#9ca3af;
+    --text-primary:#111827;
+    --text-secondary:#6b7280;
+    --accent:#111827;
+    --accent-hover:#1f2937;
+    --terminal-bg:#0f172a;
 }
 • {
     box-sizing: border-box;
