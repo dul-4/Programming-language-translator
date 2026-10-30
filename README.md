@@ -24,13 +24,3 @@ To prevent browser security restrictions (`prompt()` blocks) from interrupting e
  🛠️ Current Limitations & Considerations
 - **Line-by-Line Simulation Engine**: Built using custom regex patterns and light evaluation logic for educational snippets. Advanced object-oriented patterns or complex multi-line loops have limited native execution.
 - **Browser Security Context**: Dialog triggers depend on local browser permissions and environment settings.
-
-
-
-## 🚀 Getting Started Locally
-
-To run this project on your local machine, follow these steps:
-
-1. **Clone the repository**:
-   ```bash
-   git clone [https://github.com/YOUR-USERNAME/YOUR-REPOSITORY.git](https://github.com/YOUR-USERNAME/YOUR-REPOSITORY.git)
