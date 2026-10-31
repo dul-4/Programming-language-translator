@@ -42,7 +42,7 @@ I built PolyCode as an accessible and modern tool for students and developers. I
 If the terminal fails to respond or you run into any issues executing advanced commands, make sure to check your browser's developer console (`F12`) to verify there are no script blockages.
 ## Authors
 
-* **Alberto Castro Cruz** 
+* **Me** 
 
 ## Version History
 
