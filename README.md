@@ -7,7 +7,7 @@ PolyCode is a lightweight, browser-based IDE that acts as a **programming langua
 
 ## Description
 
-I built PolyCode as an accessible and modern tool for students and developers. Its main goal is to provide an agile testing ground where you can run small snippets of code, evaluate variables, handle user input (`input()`), and explore advanced, interactive features directly from any web browser.
+PolyCode is a lightweight web-based code translator and terminal utility. It provides a clean, split-screen interface to write, test, and translate basic code snippets between popular programming languages like Python and C++.
 
 ---
 
