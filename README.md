@@ -3,11 +3,10 @@
 <img width="1862" height="837" alt="Captura de pantalla 2026-10-30 095012" src="https://github.com/user-attachments/assets/3d864dce-3156-40ce-9dff-0dc0e5b2ae54" />
 
 
-PolyCode is a lightweight, browser-based IDE that acts as a **programming language translator and interpreter**. It allows you to write code in languages like Python, JavaScript, and C++, processing basic syntax, variables, and interactive functions directly in a simulated terminal in real-time without requiring complex installations.
-
+PolyCode is an experimental, web-based UI prototype for side-by-side code snippet translation and visual syntax comparison. It uses basic pattern mapping to convert simple Python instructions (such as print statements) into equivalent C++ structures, featuring a light simulated terminal for output testing.
 ## Description
 
-PolyCode is a lightweight web-based code translator and terminal utility. It provides a clean, split-screen interface to write, test, and translate basic code snippets between popular programming languages like Python and C++.
+PolyCode is an experimental, web-based UI prototype for side-by-side code snippet translation and light terminal output testing. It uses basic syntax mapping to convert simple Python instructions (like basic print statements) into C++ boilerplates for quick structural visual comparisons.
 
 ---
 
