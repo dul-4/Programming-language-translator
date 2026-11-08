@@ -3,10 +3,10 @@
 <img width="1862" height="837" alt="Captura de pantalla 2026-10-30 095012" src="https://github.com/user-attachments/assets/3d864dce-3156-40ce-9dff-0dc0e5b2ae54" />
 
 
-PolyCode is an experimental, web-based UI prototype for side-by-side code snippet translation and visual syntax comparison. It uses basic pattern mapping to convert simple Python instructions (such as print statements) into equivalent C++ structures, featuring a light simulated terminal for output testing.
+PolyCode is an experimental web UI prototype for side-by-side code snippet viewing and basic syntax text substitution. It uses simple string pattern matching to convert basic Python instructions into equivalent C++ formats, featuring a basic simulated text terminal for output display.
 ## Description
 
-PolyCode is an experimental, web-based UI prototype for side-by-side code snippet translation and light terminal output testing. It uses basic syntax mapping to convert simple Python instructions (like basic print statements) into C++ boilerplates for quick structural visual comparisons.
+PolyCode is a simple web prototype that processes and translates basic text and code snippets through user input, focusing purely on the visual interface and basic string manipulation.
 
 ---
 
@@ -53,4 +53,4 @@ If the terminal fails to respond or you run into any issues executing advanced c
 This project is licensed free
 ## Acknowledgments
 
-* Inspired by the programming community and educational web development tools.
+* Inspired by the programming community and educational basic web development tools.
