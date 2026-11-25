@@ -16,7 +16,7 @@ function clearEditor(type) {
         document.getElementById('sourceTerminal').classList.remove('error');
     } else {
         document.getElementById('targetCode').value = '';
-        document.getElementById('targetTerminal'.textContent = '// Output will appear here...');
+        document.getElementById('targetTerminal').textContent = '// Output will appear here...';
         document.getElementById('targetTerminal').classList.remove('error');
     }
     translateCode();
@@ -34,7 +34,7 @@ function swapLanguages() {
     const tgtLang = document.getElementById('targetLang');
     const srcCode = document.getElementById('sourceCode');
     const tgtCode = document.getElementById('targetCode');
-    const temLang = srcLang.value;
+    const tempLang = srcLang.value;
     srcLang.value = tgtLang.value;
     tgtLang.value = tempLang; 
     const tempCode = srcCode.value;
@@ -211,7 +211,7 @@ try {
                 let promptExpr = inputMatch[2];
                 let promptText = evaluateExpression(promptExpr, context);
                 let userInputValue = window.promt ? promt(promptText || "Enter a value:") : "My name";
-                if  (userInputValue = null) userInputValue = "";
+                if  (userInputValue == null) userInputValue = "";
 
                 context[varName] = userInputValue;
                 simulatedPrint(promptText.replace(/["']/g, '') + " " + userInputValue);
