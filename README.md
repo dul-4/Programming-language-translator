@@ -19,7 +19,7 @@ PolyCode is an experimental and very basic web prototype that attempts to functi
 <img width="1890" height="872" alt="Captura de pantalla 2026-10-30 093241" src="https://github.com/user-attachments/assets/4c631a8b-15af-4cdc-b775-035269759dd6" />
 
 ### Day 3: Logic and Interpreter with JavaScript
-* **What I did:** I programmed all the execution logic in vanilla JavaScript. This included the line-by-line reading system, control structures and variable management, support for `input()`, terminal clearing, and integrating a fun Google T-Rex runner mini-game easter egg.
+- **What I did:** I programmed all the execution logic in vanilla JavaScript. This included the line-by-line reading system, control structures and variable management, support for `input()`, clearing the terminal, and outputting execution results.
 <img width="1805" height="842" alt="Captura de pantalla 2026-10-31 154429" src="https://github.com/user-attachments/assets/d18b3ad4-41ba-4164-b494-f7abf05db721" />
 
 ---
